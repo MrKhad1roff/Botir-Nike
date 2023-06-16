@@ -1,0 +1,120 @@
+@import url(./fonts/ofont.ru_Times\ New\ Roman.ttf);
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a {
+    text-decoration: 0;
+}
+ul {
+    list-style: none;
+}
+.container{
+    display: flex;
+    align-items: center;
+    width: 1300px;
+    margin:auto;
+    
+}
+.wrapper__container{
+    background:url(./img/wrapper_bg.jpg) center center / cover no-repeat;
+    height: 100vh;
+   
+}
+.wrapper__basicwindow{
+    margin: auto;
+    margin-left:201px;
+    display: flex;
+    justify-content: space-between;
+    width:1000px;
+    height:550px;
+    background:#fff;
+    border-radius: 30px;
+}
+.wrapper__card{
+    display: flex;
+    flex-direction: column;
+    row-gap: 37px;
+    
+}
+.wrapper__card-image{
+    
+    margin: 30px 71px 0 35px;
+    width: 485px;
+    height: 315px;
+}
+.wrapper__card-title{
+    margin-left: 64px;
+    justify-content: flex-start;
+    font-family: "Times New Roman";
+    font-weight: 400;
+    font-size:26px;
+    color: #1345F9;
+}
+.wrapper__card-sizes{
+    font-family: "Times New Roman";
+    font-weight: 400;
+    font-size: 30px;
+    margin-left: 48px;
+    display: flex;
+    align-items: center;
+    word-spacing: 10px;
+}
+.wrapper__num{
+    color: #1345F9;
+    font-size:32px;
+    padding: 0 35px 0 0;
+}
+.wrapper__about-note1{
+    font-family: "Times New Roman";
+    font-weight: 400;
+    padding:50px 102px 0 0;
+    font-size:26px;
+    color: #1345F9;
+}
+.wrapper__about-note2{
+    font-family: "Times New Roman";
+    font-weight: 400;
+    font-size: 34px;
+    line-height: 39.5px;
+    padding: 10px 80px 0 0;
+    word-spacing:10px;
+    width: 400px;
+}
+.wrapper__about-note3{
+    color: #1345F9;
+    padding: 0px 300px 16px 0;
+    font-size: 38px;
+    font-family: "Times New Roman";
+    font-weight: 400;
+}
+.wrapper__about-text{
+    width: 315px;
+    height: 189px;
+    margin: 0 105px 0 0;
+    font-family: "Times New Roman";
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 24px;
+}
+.wrapper__about-btn{
+    font-family: "Playfair Display";
+    border: 1px solid #1345F9;
+    border-radius: 50px;
+    font-size: 26px;
+    margin: 30px 0;
+    width: 316px;
+    height: 64px;
+    display: inline-block;
+    text-align: center;
+    padding: 15px 0;
+    background: #1345F9;
+    color: white;
+    transition: .5s;
+}
+.wrapper__about-btn:hover{
+    color: #1345F9;
+    background: #fff;
+}
